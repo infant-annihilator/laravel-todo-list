@@ -12,9 +12,9 @@
 Для запуска с использованием Docker, нужен [установленный Docker](https://docs.docker.com/docker-for-windows/install/) на компьютере. <br />
 
 После клонирования репозитория
-`docker-compose build` для сборки билда
-`docker-compose up -d` для запуска контейнера
-`docker-compose run --rm artisan migrate` для миграции баз данных
+`docker-compose build` для сборки билда <br />
+`docker-compose up -d` для запуска контейнера <br />
+`docker-compose run --rm artisan migrate` для миграции баз данных <br />
 
 Далее проект будет доступен по адресу [localhost:80](http://localhost:80) <br />
 
