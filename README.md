@@ -18,7 +18,7 @@
 
 Далее проект будет доступен по адресу [localhost:80](http://localhost:80) <br />
 
-Всеми командами при разработке можно пользоватеься из докера, причём предустановленные на ПК для этого модули не понадобятся. Например:
+Всеми командами при разработке можно пользоваться из докера. Например:
 - `docker-compose run --rm composer update`
 - `docker-compose run --rm npm run dev`
 - `docker-compose run --rm artisan migrate` 
