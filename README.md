@@ -11,7 +11,7 @@
 ## Старт через Docker
 Для запуска с использованием Docker, нужен [установленный Docker](https://docs.docker.com/docker-for-windows/install/) на компьютере. <br />
 
-После клонирования репозитория
+После клонирования репозитория <br />
 `docker-compose build` для сборки билда <br />
 `docker-compose up -d` для запуска контейнера <br />
 `docker-compose run --rm artisan migrate` для миграции баз данных <br />
