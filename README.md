@@ -1,6 +1,6 @@
-# laravel-todo-list-docker
+# laravel-todo-list
 
-**Laravel** + **Vue** + **TailwindCSS** + **Docker**
+**Laravel** + **Vue** + **TailwindCSS**
 
 Простой todo-лист для тестового задания
 
@@ -15,6 +15,7 @@
 `docker-compose build` сборка <br />
 `docker-compose up -d` запуск <br />
 `docker-compose run --rm artisan migrate` миграция БД <br />
+`npm run watch` пересборка npm <br />
 
 Далее проект становится доступен по адресу [localhost:80](http://localhost:80) <br />
 
@@ -22,3 +23,16 @@
 - `docker-compose run --rm composer update`
 - `docker-compose run --rm npm run dev`
 - `docker-compose run --rm artisan migrate` 
+
+## Старт вручную
+*Понадобится установленный локально на ПК [php последней версии](https://www.php.net/downloads.php), добавленный в PATH; локальный сервер для MySQL и [node.js](https://nodejs.org/)!* <br />
+
+Перед клонированием репозитория следует создать БД с названием **todo** <br />
+
+После клонированияя репозитория: <br />
+`php artisan cache:clear` чистка всего кэша проекта <br />
+`php artisan serve` запуск сервера <br />
+`php artisan migrate` миграция БД <br />
+`npm run hot` пересборка npm <br />
+
+Проект будет доступен по адресу [127.0.0.1:8000](http://127.0.0.1:8000)
